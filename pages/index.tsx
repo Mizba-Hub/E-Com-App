@@ -171,7 +171,7 @@ export default function Home() {
             <div className="card h-100">
               <Link href="/products">
                 <Image
-                  src="	https://m.media-amazon.com/images/I/61wxTEOre0L._AC_UL480_FMwebp_QL65_.jpg"
+                  src="https://m.media-amazon.com/images/I/61wxTEOre0L._AC_UL480_FMwebp_QL65_.jpg"
                   width={300}
                   height={200}
                   className="card-img-top"
@@ -193,7 +193,7 @@ export default function Home() {
             <div className="card h-100">
               <Link href="/products">
                 <Image
-                  src="	https://m.media-amazon.com/images/I/71+i2Fg5dUL._AC_UL480_QL65_.jpg"
+                  src="https://m.media-amazon.com/images/I/71+i2Fg5dUL._AC_UL480_QL65_.jpg"
                   width={300}
                   height={200}
                   className="card-img-top"
