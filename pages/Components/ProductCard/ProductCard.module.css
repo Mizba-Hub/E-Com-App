@@ -1,0 +1,8 @@
+.product-image {
+  transition: transform 0.2s ease;
+  transform-style: preserve-3d;
+}
+
+.product-image:active {
+  transform: scale(0.95) translateZ(10px);
+}
