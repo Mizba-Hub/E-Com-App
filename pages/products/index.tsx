@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { ProductsService } from "../../pages/Services/Product-services";
+import  ProductsService  from "../../pages/Services/Product-services";
 import ProductCard from "../Components/ProductCard/ProductCard";
 import Link from "next/link";
 import Head from "next/head";
-import { Product } from "../../pages/Types/index"
+import  Product  from "../../Types/ProductType"
 
 export default function ProductList() {
   const [products, setProducts] = useState([]);

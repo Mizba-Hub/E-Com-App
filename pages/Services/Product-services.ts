@@ -1,6 +1,6 @@
-import { ServiceBase } from "../../pages/Services/Service-base";
+import  ServiceBase  from "../../pages/Services/Service-base";
 
-export class ProductsService extends ServiceBase {
+export default class ProductsService extends ServiceBase {
   static getProducts = async () => {
     var productResponse = await fetch(this.getUrl("/products"), {
       cache: "no-store",

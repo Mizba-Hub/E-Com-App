@@ -1,10 +1,11 @@
 import styles from "./ProductCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { Product } from "../../Types/index";
+
 import { useCart } from "../../Context/CartContext";
 import { useState } from "react";
 import slugify from "slugify";
+import Product from "@/Types/ProductType";
 
 export default function ProductCard({ product }: { product: Product }) {
   const { addToCart } = useCart();

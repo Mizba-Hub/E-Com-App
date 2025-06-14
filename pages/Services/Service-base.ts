@@ -1,4 +1,4 @@
-export abstract class ServiceBase {
+export  default abstract class ServiceBase {
   static API_URL = "https://fakestoreapi.com";
 
   static getUrl(path: string) {

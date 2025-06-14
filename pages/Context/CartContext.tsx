@@ -1,5 +1,6 @@
+import Product from "@/Types/ProductType";
 import { createContext, useContext, useState } from "react";
-import { Product } from "../../pages/Types/index";
+
 
 type CartContextType = {
   cart: Product[];
@@ -9,7 +10,7 @@ type CartContextType = {
 
 const CartContext = createContext<CartContextType | null>(null);
 
-export function CartProvider({ children }: { children: React.ReactNode }) {
+export default function CartProvider({ children }: { children: React.ReactNode }) {
   const [cart, setCart] = useState<Product[]>([]);
 
   const addToCart = (product: Product) => {
