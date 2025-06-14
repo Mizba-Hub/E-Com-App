@@ -1,4 +1,5 @@
-import  ServiceBase  from "../../pages/Services/Service-base";
+import ServiceBase from "./Service-base";
+
 
 export default class ProductsService extends ServiceBase {
   static getProducts = async () => {

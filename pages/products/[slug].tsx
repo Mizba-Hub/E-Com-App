@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import  ProductsService  from "../../pages/Services/Product-services";
 import Image from "next/image";
 import { useCart } from "../../pages/Context/CartContext";
 import slugify from "slugify";
+import ProductsService from "@/Services/Product-services";
 
 export default function ProductDetail() {
   const router = useRouter();
